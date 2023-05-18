@@ -1,0 +1,69 @@
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+  
+
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+  
+.links a {
+    color: #fff;
+    margin-left: 100px;
+    
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: red;
+    text-decoration: none;
+}
+  
+ 
+section {
+    background-image: url('../img/don.jpg');
+    background-size: cover;
+    height: 600px;
+}
+  
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+  
+.footer-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-logo{
+    margin-right: 130px;
+}
+  
+.footer-logos img {
+    height: 50px;
+}
